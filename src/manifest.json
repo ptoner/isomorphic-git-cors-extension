@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Large CORS Proxy",
+    "version": "0.0.1",
+    
+    "description": "Clone/push to major git providers without CORS issues.",
+
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+
+    "host_permissions": [
+        "<all_urls>"
+    ],
+
+    "declarative_net_request": {
+        "rule_resources": [{
+          "id": "ruleset_1",
+          "enabled": true,
+          "path": "rules.json"
+        }]
+    }
+}
