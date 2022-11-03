@@ -1,19 +1,16 @@
 {
-  "name": "large-cors-proxy",
-  "version": "0.0.7",
+  "name": "isomorphic-git-cors-extension",
+  "version": "0.0.1",
   "description": "Clone/push to major git providers without CORS issues.",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/american-space-software/large-cors-proxy"
-  },
-  "scripts": {
-    "build": "node node_modules/webpack/bin/webpack.js --config=webpack.prod.ts"
+    "url": "git+https://github.com/ptoner/isomorphic-git-cors-extension"
   },
   "keywords": [
   ],
   "author": "Patrick Toner",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/american-space-software/large-cors-proxy/issues"
+    "url": "https://github.com/ptoner/isomorphic-git-cors-extension/issues"
   }
 }
