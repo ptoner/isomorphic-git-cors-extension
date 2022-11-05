@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "Isomorphic Git CORS Proxy",
+    "name": "Isomorphic Git CORS Extension",
     "version": "0.0.1",
     
     "description": "Clone/push to major git providers without CORS issues.",
